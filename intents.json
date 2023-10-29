@@ -1,0 +1,112 @@
+{"intents": [
+    {
+        "tag": "greeting",
+        "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+        "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+        "tag": "xml",
+        "patterns": ["What is XML?", "What is xml?", "what is xml", "what is XML", "what is XML?", "what is xml?"],
+        "responses": ["XML stands for Extensible Markup Language. It is a markup language much like HTML and was designed to store and transport data. XML was designed to be both human- and machine-readable."]
+    },
+    {
+        "tag": "declaration",
+        "patterns": ["What is XML declaration?", "What is xml declaration?", "what is xml declaration", "what is XML declaration", "what is XML declaration?", "what is xml declaration?"],
+        "responses": ["The XML declaration is the first line of an XML document and specifies the XML version (1.0), and the character encoding (UTF-8)."]
+    },
+    {
+        "tag": "elements",
+        "patterns": ["What is XML elements?", "What are xml elements?", "what is xml elements", "what is XML elements", "what is XML elements?", "what is xml elements?"],
+        "responses": ["XML elements are the building blocks of XML documents. An element has a start tag, content, and an end tag. The start tag and end tag are also referred to as an element container."]
+    },
+    {
+        "tag": "attributes",
+        "patterns": ["What is XML attributes?", "What are xml attributes?", "what is xml attributes", "what is XML attributes", "what is XML attributes?", "what is xml attributes?"],
+        "responses": ["XML attributes provide additional information about elements. They appear inside the start tag of an element, and consist of a name/value pair. The attribute value must be quoted."]
+    },
+    {
+        "tag": "comments",
+        "patterns": ["What is XML comments?", "What are xml comments?", "how to make xml comments"],
+        "responses": ["XML comments are similar to HTML comments. They are used to add notes and comments to an XML document. XML comments are not displayed in the web browsers."]
+    },
+    {
+        "tag": "cdata",
+        "patterns": ["What is XML CDATA?", "What are xml CDATA?", "How does XML CDATA work"],
+        "responses": ["CDATA stands for Character Data. CDATA is used to escape blocks of text containing characters which would otherwise be recognized as markup. CDATA sections begin with the string <![CDATA[ and end with ]]>."]
+    },
+    {
+        "tag": "validation",
+        "patterns": ["What is XML validation?", "What are xml validation?", "how to validate xml"],
+        "responses": ["XML validation is the process of checking a document written in XML (eXtensible Markup Language) to confirm that it is both well-formed and also "]
+    },
+    {
+        "tag": "well-formed",
+        "patterns": ["What is XML well-formed?", "What are xml well-formed?", "how to make xml well-formed"],
+        "responses": ["A well-formed XML document is a document that is syntactically correct, i.e. it to be valid XML. It must have a single root element, and all elements must be properly nested. The document must also contain properly encoded legal XML characters."]
+    },
+    {
+        "tag": "dtd",
+        "patterns": ["What is XML DTD?", "What are xml DTD?", "how to make xml DTD"],
+        "responses": ["A DTD defines the structure and the legal elements and attributes of an XML document. A DTD can be declared inline inside an XML document, or as an external reference. A DTD is declared in a document type declaration."]
+    },
+    {
+        "tag": "schema",
+        "patterns": ["What is XML schema?", "What are xml schema?", "how to make xml schema"],
+        "responses": ["XML Schema is an XML-based alternative to DTD. It describes the structure of an XML document. The XML Schema language is also referred to as XML Schema Definition (XSD)."]
+    },
+    {
+        "tag": "xslt",
+        "patterns": ["What is XML XSLT?", "What are xml XSLT?", "how to make xml XSLT"],
+        "responses": ["XSLT stands for XSL Transformations. XSLT is a language for transforming XML documents into other XML documents, or other formats such as HTML for web pages, plain text or XSL Formatting Objects, which may subsequently be converted to other formats, such as PDF, PostScript and PNG."]
+    },
+    {
+        "tag": "xpath",
+        "patterns": ["What is XML XPath?", "What are xml XPath?", "how to make xml XPath"],
+        "responses": ["XPath is a language for addressing parts of an XML document, designed to be used by both XSLT and XPointer. XPath is a major element in the XSLT standard."]
+    },
+    {
+        "tag": "xquery",
+        "patterns": ["What is XML XQuery?", "What are xml XQuery?", "how to make xml XQuery"],
+        "responses": ["XQuery is a query language designed to query XML data. XQuery is to XML what SQL is to database tables. XQuery is a major element in the XSLT standard."]
+    },
+    {
+        "tag": "xlink",
+        "patterns": ["What is XML XLink?", "What are xml XLink?", "how to make xml XLink"],
+        "responses": ["XLink is a language for creating hyperlinks in XML documents. XLink is a major element in the XSLT standard."]
+    },
+    {
+        "tag": "xpointer",
+        "patterns": ["What is XML XPointer?", "What are xml XPointer?", "how to make xml XPointer"],
+        "responses": ["XPointer is a language for addressing parts of an XML document. XPointer is a major element in the XSLT standard."]
+    },
+    {
+        "tag": "xinclude",
+        "patterns": ["What is XML XInclude?", "What are xml XInclude?", "how to make xml XInclude"],
+        "responses": ["XInclude is a language for creating XML documents from multiple documents. XInclude is a major element in the XSLT standard."]
+    },
+    {
+        "tag": "xsl-fo",
+        "patterns": ["What is XML XSL-FO?", "What are xml XSL-FO?", "how to make xml XSL-FO"],
+        "responses": ["XSL-FO stands for XSL Formatting Objects. XSL-FO is a markup language for XML document formatting that is most often used to generate PDF files. XSL-FO is a major element in the XSLT standard."]
+    },
+    {
+        "tag": "xsl",
+        "patterns": ["What is XML XSL?", "What are xml XSL?", "how to make xml XSL"],
+        "responses": ["XSL stands for EXtensible Stylesheet Language. XSL is a language for expressing stylesheets. An XSL stylesheet specifies the presentation of a class of XML documents by describing how an instance of the class is transformed into an XML document that uses the formatting vocabulary. XSL is a major element in the XSLT standard."]
+    },
+    {
+        "tag": "other",
+        "patterns": ["how to declare a variable", "how to code", "how to"],
+        "responses": ["as a XML assistant I don't understand, please ask another question."]
+    }
+]}

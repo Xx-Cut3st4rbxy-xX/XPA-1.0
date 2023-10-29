@@ -16,17 +16,17 @@
     },
     {
         "tag": "xml",
-        "patterns": ["What is XML?", "What is xml?", "what is xml", "what is XML", "what is XML?", "what is xml?"],
+        "patterns": ["What is XML?", "What is xml?"],
         "responses": ["XML stands for Extensible Markup Language. It is a markup language much like HTML and was designed to store and transport data. XML was designed to be both human- and machine-readable."]
     },
     {
         "tag": "declaration",
-        "patterns": ["What is XML declaration?", "What is xml declaration?", "what is xml declaration", "what is XML declaration", "what is XML declaration?", "what is xml declaration?"],
+        "patterns": ["What is XML declaration?"],
         "responses": ["The XML declaration is the first line of an XML document and specifies the XML version (1.0), and the character encoding (UTF-8)."]
     },
     {
         "tag": "elements",
-        "patterns": ["What is XML elements?", "What are xml elements?", "what is xml elements", "what is XML elements", "what is XML elements?", "what is xml elements?"],
+        "patterns": ["What is XML elements?", "What are xml elements?"],
         "responses": ["XML elements are the building blocks of XML documents. An element has a start tag, content, and an end tag. The start tag and end tag are also referred to as an element container."]
     },
     {

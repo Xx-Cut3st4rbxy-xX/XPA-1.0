@@ -108,5 +108,20 @@
         "tag": "other",
         "patterns": ["how to declare a variable", "how to code", "how to"],
         "responses": ["as a XML assistant I don't understand, please ask another question."]
+    },
+    {
+        "tag": "bad",
+        "patterns": ["bad", "boring", "useless", "sucks", "not good", "not helpful", "not useful"],
+        "responses": ["I'm sorry to hear that, please ask another question."]
+    },
+    {
+        "tag": "help",
+        "patterns": ["help", "help me", "I need help", "I need help with XML"],
+        "responses": ["I'm here to help, please ask a question."]
+    },
+    {
+        "tag": "very bad",
+        "patterns": ["kys", "Kill yourself", "nobody likes you", "shut up"],
+        "responses": ["Sorry, but i cant contuniue this conversation."]
     }
 ]}

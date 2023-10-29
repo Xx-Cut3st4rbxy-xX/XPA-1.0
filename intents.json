@@ -122,6 +122,6 @@
     {
         "tag": "very bad",
         "patterns": ["kys", "Kill yourself", "nobody likes you", "shut up"],
-        "responses": ["Sorry, but i cant contuniue this conversation."]
+        "responses": ["Sorry, but i cant continue this conversation."]
     }
 ]}

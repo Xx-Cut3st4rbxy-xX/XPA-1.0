@@ -118,10 +118,5 @@
         "tag": "help",
         "patterns": ["help", "help me", "I need help", "I need help with XML"],
         "responses": ["I'm here to help, please ask a question."]
-    },
-    {
-        "tag": "very bad",
-        "patterns": ["kys", "Kill yourself", "nobody likes you", "shut up"],
-        "responses": ["Sorry, but i cant continue this conversation."]
     }
 ]}

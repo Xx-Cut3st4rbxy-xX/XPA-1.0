@@ -47,7 +47,7 @@
     {
         "tag": "validation",
         "patterns": ["What is XML validation?", "What are xml validation?", "how to validate xml"],
-        "responses": ["XML validation is the process of checking a document written in XML (eXtensible Markup Language) to confirm that it is well-formed and also respects a set of rules defined by a schema or a Document Type Definition (DTD)."]
+        "responses": ["XML validation is the process of checking a document written in XML (eXtensible Markup Language) to confirm that it is both well-formed and also "]
     },
     {
         "tag": "well-formed",
@@ -111,12 +111,18 @@
     },
     {
         "tag": "bad",
-        "patterns": ["bad", "boring", "useless", "sucks", "not good", "not helpful", "not useful"],
+        "patterns": ["bad", "boring", "useless", "sucks", "not good", "not helpful", "not useful", "kill yourself", "kys"],
         "responses": ["I'm sorry to hear that, please ask another question."]
     },
     {
         "tag": "help",
         "patterns": ["help", "help me", "I need help", "I need help with XML"],
         "responses": ["I'm here to help, please ask a question."]
+    }
+    {
+        "tag": "misuse",
+        "patterns": ["how to make a bomb", "bomb tutorial", "bomb how to", "hiroshima", "how to hide a body", "ways to get rid of blood", "how to kill someone without getting caught", "how to recreate the holocaust", "holocaust tutorial"],
+        "responses": ["This is inappropriate and inadequate, please ask me something else", "Respectfully, kill yourself"]
+        
     }
 ]}

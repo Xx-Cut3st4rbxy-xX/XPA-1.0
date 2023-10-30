@@ -47,7 +47,7 @@
     {
         "tag": "validation",
         "patterns": ["What is XML validation?", "What are xml validation?", "how to validate xml"],
-        "responses": ["XML validation is the process of checking a document written in XML (eXtensible Markup Language) to confirm that it is both well-formed and also "]
+        "responses": ["XML validation is the process of checking a document written in XML (eXtensible Markup Language) to confirm that it is well-formed and also respects a set of rules defined by a schema or a Document Type Definition (DTD)."]
     },
     {
         "tag": "well-formed",
